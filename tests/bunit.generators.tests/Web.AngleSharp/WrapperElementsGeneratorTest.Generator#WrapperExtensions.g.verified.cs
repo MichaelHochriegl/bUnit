@@ -2,7 +2,7 @@
 namespace Bunit.Web.AngleSharp;
 
 [System.CodeDom.Compiler.GeneratedCodeAttribute("Bunit.Web.AngleSharp", "1.0.0.0")]
-internal static class WrapperExtensions
+public static class WrapperExtensions
 {
 
 	public static global::AngleSharp.Dom.IElement WrapUsing<TElementFactory>(this global::AngleSharp.Dom.IElement element, TElementFactory elementFactory) where TElementFactory : Bunit.Web.AngleSharp.IElementWrapperFactory => element switch
